@@ -1,0 +1,23 @@
+{
+	"name": "fc-podcast-downloader",
+	"version": "1.0.0",
+	"author": "Lord Grosse Jeanine",
+	"description": "France Culture podcast downloader",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"axios": "^0.24.0",
+		"inquirer": "^8.2.0",
+		"jsdom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.16.7",
+		"@babel/eslint-parser": "^7.16.5",
+		"eslint": "^8.6.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.25.4"
+	}
+}

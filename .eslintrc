@@ -1,0 +1,18 @@
+{
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "requireConfigFile": false
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "rules": {
+        "comma-dangle": ["error", "never"],
+        "import/extensions": ["error", "ignorePackages"],
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "radix": "off"
+        // "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"]
+    }
+}
